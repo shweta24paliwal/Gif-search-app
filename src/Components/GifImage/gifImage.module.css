@@ -1,0 +1,32 @@
+.giphyImage {
+  width: 200px;
+  height: 200px;
+  margin: 6px 4px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.giphyImage:hover {
+  box-shadow: 1px 0px 6px rgba(242, 239, 239, 0.82);
+}
+
+.giphyImage:hover .hoverIcon {
+  display: inline-block;
+}
+
+.hoverIcon {
+  font-size: 35px;
+  position: absolute;
+  left: 50%;
+  margin-left: -14px;
+  top: 50%;
+  margin-top: -18px;
+  display: none;
+  color: #fff;
+  text-shadow: 1px 2px 2px black;
+}
